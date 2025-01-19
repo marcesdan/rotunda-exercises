@@ -26,12 +26,12 @@ function createLogError({ timeWindow, threshold }) {
   const errorTimestamps = [];
 
   return async (error) => {
-    // 1. Continue normal error logging
-    logErrorToFile(error);
-
-    // 2. Track error occurrence
+    // 1. Track error occurrence
     const now = Date.now();
     errorTimestamps.push(now);
+
+    // 2. Continue normal error logging
+    logErrorToFile(error);
 
     // 3. Remove old errors outside time window
     const cutoff = now - timeWindow;
