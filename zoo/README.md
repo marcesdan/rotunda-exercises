@@ -1,4 +1,4 @@
-# TypeScript Zoo Exercise
+# Zoo Exercise
 
 A TypeScript implementation of a zoo where different animals can speak in their unique ways.
 
