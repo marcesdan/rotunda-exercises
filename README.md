@@ -4,9 +4,9 @@ Collection of coding exercises demonstrating different programming concepts and 
 
 ## Exercises
 
-1. [Zoo Exercise](./zoo/README.md) - OOP demonstration with speaking animals
-2. [URL Parser](./url-parser/README.md) - URL path and query parameter parser
-3. [Error Alarm](./error-alarm/README.md) - Error logging system with email notifications
+1. [Zoo Exercise](zoo) - OOP demonstration with speaking animals
+2. [URL Parser](url-parser) - URL path and query parameter parser
+3. [Error Alarm](error-alarm) - Error logging system with email notifications
 
 ## Getting Started
 
