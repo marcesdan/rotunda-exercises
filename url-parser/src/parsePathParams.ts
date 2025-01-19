@@ -6,7 +6,7 @@ export type ParsedPathParams = {
 
 export const parsePathParams = (
   formatParts: string[],
-  pathParts: string[]
+  pathParts: string[],
 ): ParsedPathParams =>
   formatParts.reduce<ParsedPathParams>((acc, format, index) => {
     if (format.startsWith(":")) {
@@ -14,9 +14,7 @@ export const parsePathParams = (
       const value = pathParts[index];
       const numberValue = Number(value);
       acc[key] =
-        !isNaN(numberValue) && isNumber(numberValue)
-          ? numberValue
-          : value;
+        !isNaN(numberValue) && isNumber(numberValue) ? numberValue : value;
     }
     return acc;
   }, {});
