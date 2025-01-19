@@ -119,7 +119,3 @@ npm run test:concurrent
      - Number of errors occurred
      - Time window in which they occurred
      - Timestamp of notification
-
-## Conclusion
-
-This project demonstrates how to handle and log errors in an Express application, including sending email notifications when a threshold is exceeded. The `concurrentRequests.ts` script ensures that the `logError` function works correctly under high concurrency.
