@@ -2,14 +2,20 @@
   "compilerOptions": {
     "outDir": "dist",
     "sourceMap": true,
-    "module": "ESNext",
-    "target": "ESNext",
+    "module": "nodenext",
+    "target": "ES2022",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["./*.js", "**/src/**/*.ts", "**/test/**/*.ts", "jest.config.js"]
+  "include": [
+    "error-alarm/**/*.ts",
+    "url-parser/**/*.ts",
+    "zoo/**/*.ts",
+    "*.js"
+  ],
+  "exclude": ["node_modules", "dist"]
 }
