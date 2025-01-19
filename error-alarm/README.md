@@ -25,7 +25,7 @@ function createLogError({ timeWindow, threshold }) {
   // Use closure to track errors over time
   const errorTimestamps = [];
 
-  return (error) => {
+  return async (error) => {
     // 1. Continue normal error logging
     logErrorToFile(error);
 
