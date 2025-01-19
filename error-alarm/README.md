@@ -102,6 +102,16 @@ SMTP_MAIL_FROM="your-email@example.com"
 SMTP_MAIL_TO="recipient-email@example.com"
 ```
 
+## Getting Started
+
+1. Follow the [installation instructions](../README.md#installation).
+
+2. Run the application:
+
+```shell
+npm run dev:error
+```
+
 ## Generating a Google App Password
 
 1. Go to Google App passwords: <https://myaccount.google.com/apppasswords>

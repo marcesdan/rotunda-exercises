@@ -26,7 +26,9 @@ cd rotunda-exercises
 
 2. Install dependencies:
 
-npm install
+```shell
+npm i
+```
 
 ### Running Tests
 

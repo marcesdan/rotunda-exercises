@@ -4,7 +4,7 @@ A TypeScript implementation of a zoo where different animals can speak in their 
 
 ## Project Structure
 
-```sh
+```shell
 zoo
 ├── src
 │   ├── models
@@ -21,25 +21,15 @@ zoo
 
 ## Getting Started
 
-1. Clone the repository:
+1. Follow the [installation instructions](../README.md#installation).
 
-   ```sh
-   git clone <github.con/marcesdan/rotunda-exercises>
-   ```
-
-2. Install the dependencies:
-
-   ```sh
-   npm i
-   ```
-
-3. Run the application:
+2. Run the application:
 
    ```sh
    npm dev:zoo
    ```
 
-4. Run the tests:
+3. Run the tests:
 
    ```sh
    npm test:zoo
@@ -47,16 +37,13 @@ zoo
 
 ## Note on Object-Oriented Programming
 
-This exercise represents a classic example of OOP application, particularly demonstrating polymorphism through different animals sharing a common interface. While it serves as an excellent educational example, it's worth noting that these aren't universal solutions for all problems. From my experience:
+This exercise represents a classic example of OOP application, particularly demonstrating polymorphism through different animals sharing a common interface. While it serves as an educational example.
 
-- OOP abstractions, when overused or misapplied, can lead to complex inheritance hierarchies.
-- I've seen many codebases suffer from premature abstraction in the name of "future extensibility".
-- Real-world systems often grow in unexpected ways that don't fit initial OOP designs.
-
-This doesn't mean OOP is inherently flawed - rather, I think it suggests:
-
-1. Not every problem needs an object-oriented solution.
-2. Abstractions should be introduced when there's concrete evidence they're needed.
-3. Simple and direct code often ages better than complex abstractions.
+> [!WARNING]
+> Having seen many codebases suffer from over-engineering, my experience shows that:
+>
+> - Complex inheritance hierarchies can be hard to maintain.
+> - Consider composition over inheritance when possible.
+> - Defer abstractions until they're needed.
 
 This exercise demonstrates OOP concepts while acknowledging these practical considerations.
